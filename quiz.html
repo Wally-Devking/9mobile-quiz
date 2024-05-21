@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="quiz.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagined Quiz</title>
+</head>
+<body>
+
+<h1> FUN TIME </h1>
+
+<form id="quizForm">
+    <ol>
+        <li>I work all day, I work all night, In offices or under sunlight. I may be small, or towering tall, But without me, progress would stall.  <br>
+            <br>What am I?</li>
+    </ol>
+    <div class="button-containerQuiz">
+        <label class="radio">
+            <input type="radio" name="option" value="Manager"> Manager
+        </label>
+        <label class="radio">
+            <input type="radio" name="option" value="HR team">  HR team
+        </label>
+        <label class="radio">
+            <input type="radio" name="option" value="Worker"> Worker
+        </label>
+        <label class="radio">
+            <input type="radio" name="option" value="Performer"> Performer
+        </label>
+        <label class="radio">
+            <input type="radio" name="option" value="Genuis"> Genius
+        </label>
+        <label class="radio">
+            <input type="radio" name="option" value="Specialist"> Specialist
+        </label>
+        <label class="radio">
+            <input type="radio" name="option" value="Analyst"> Analyst
+        </label>
+
+        <!-- Add more radio buttons as needed -->
+    </div>
+    <div class="btn-quiz">
+        <input type="submit" value="Submit">
+    </div>
+
+
+<div id="popupContainer" class="popup-container">
+    <div class="popup-content">
+        <img src="/images/QR code web designs happy smiley.png" width="" alt="Joy Image">
+        <p>Congratulations! You have WON the prize! <br> <br>
+            <span style="color: rgb(190, 247, 122);"> We will get in touch with you..</span></p>
+    </div>
+    <div class="close-btn">
+        <a href="index.html"><input type="button" value="Close"></a>
+    </div>
+</div>
+
+<div id="popupContainer2" class="popup-container">
+    <div class="popup-content">
+        <img src="/images/QR code web designs asd smiley.png" width="" alt="sad Image">
+        <p> Wrong Answer! You just missed the prize! <br>
+            <br>
+        <span style="color: rgb(190, 247, 122);">Try again later...</span></p>
+    </div>
+    <div>
+        <a href="index.html"><input type="button" value="Close"></a>
+    </div>
+</div>
+<!-- <div id="popupContainer3" class="popup-container">
+    <div class="popup-content">
+        <img src="/images/DSC_1713.jpg" alt="Joy Image">
+        <p> You Have To Check an Answer!</p>
+    </div>
+
+    <div>
+        <a href="index.html"><input type="button" value="Close"></a>
+    </div>
+</div> -->
+
+</form>
+
+<script src="quiz.js"></script>
+
+</body>
+</html>

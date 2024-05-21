@@ -1,0 +1,57 @@
+body {
+    font-family: "Maven Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/whitebg.jpg);
+    
+}   
+
+
+.container {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-top: 50px;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: -15px;
+    font-size: larger;
+}
+.button-container {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+    background-color: #4e8864;;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.button:hover {
+    background-color: #a8cd16;
+}
+ 

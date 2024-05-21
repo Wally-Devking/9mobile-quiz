@@ -71,9 +71,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #a8cd16;
 }
-
  /*  new features */
-
+ 
 input[type="submit"] {
     background-color: #30785a;
     color: rgb(244, 244, 244);
